@@ -1,4 +1,25 @@
+.select2-dropdown {
+  background-color: $bg !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#sidebar
+  .select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice,
+.select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice {
+  background-color: $bg !important;
+}
+.select2-container--default .select2-results__option[aria-disabled="true"] {
+  color: $gray-200 !important;
+}
+.select2-container--default .select2-results__option[aria-selected="true"] {
+  background-color: $gray-50 !important;
+}
 .select2-container--default
   .select2-results__option--highlighted[aria-selected] {
-  background-color: $bg !important;
+  background-color: $gray-100 !important;
 }
