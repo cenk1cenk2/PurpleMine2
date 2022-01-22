@@ -44,11 +44,11 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue($bg), 10%, 35%) !default;
+$gray: hsl(hue($bg), 10%, 75%) !default;
 
 $shade-map: (
-  50: 87.5%,
-  100: 80%,
+  50: 90%,
+  100: 84%,
   200: 65%,
   300: 40%,
   400: 20%,
@@ -69,7 +69,6 @@ $shade-map: (
   );
 }
 
-$gray-25: #22282f !default;
 $gray-50: shade($gray, 950) !default;
 $gray-100: shade($gray, 900) !default;
 $gray-200: shade($gray, 800) !default;
@@ -508,7 +507,7 @@ $highlight-link: mix($yellow, $link-color) !default;
 //== Forms
 //
 
-$input-bg: $gray-100 !default;
+$input-bg: $bg !default;
 $input-bg-disabled: $gray-300 !default;
 
 $input-color: $text-color !default;
@@ -675,7 +674,7 @@ $flash-error-link: $gray-900 !default;
 //
 
 $progress-height: 12px !default;
-$progress-bg: rgba($gray-900, 0.5) !default;
+$progress-bg: rgba($gray-500, 0.5) !default;
 $progress-bar-bg: $brand-primary !default;
 $progress-bar-success-bg: $brand-success !default;
 $progress-bar-danger-bg: $brand-danger !default;
@@ -688,8 +687,8 @@ $panel-body-padding-vertical: 15px !default;
 $panel-body-padding-horizontal: 15px !default;
 $panel-body-padding: $panel-body-padding-vertical $panel-body-padding-horizontal !default;
 $panel-color: $text-color !default;
-$panel-bg: $bg !default;
-$panel-border: $bg !default;
+$panel-bg: $gray-100 !default;
+$panel-border: $gray-200 !default;
 $panel-border-radius: $border-radius-base !default;
 $panel-shadow: 0 1px 2px rgba($black, 0.07), 0 3px 8px rgba($black, 0.04) !default;
 
