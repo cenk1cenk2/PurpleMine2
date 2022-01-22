@@ -584,7 +584,7 @@ $logo-position-horizontal: $header-padding-vertical !default;
 $logo-position-vertical: center !default;
 $logo-space: floor($header-padding-vertical * 0.5) !default;
 
-$main-menu-bg: $gray-100 !default;
+$main-menu-bg: $gray-50 !default;
 $main-menu-bg-hover: $gray-100 !default;
 $main-menu-bg-active: transparent !default;
 $main-menu-link: $gray-950 !default;
@@ -785,7 +785,7 @@ $width-lg: $screen-lg - ($padding-side * 2) !default;
 // https://www.redmineup.com/pages/plugins/agile
 //
 
-$agile-board-background: $bg !default;
+$agile-board-background: $gray-50 !default;
 $agile-issue-card-margin: 8px 10px !default;
 $agile-issue-card-padding: 7px !default;
 $agile-issue-card-border: $gray-500;
