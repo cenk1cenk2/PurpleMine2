@@ -584,7 +584,7 @@ $logo-position-horizontal: $header-padding-vertical !default;
 $logo-position-vertical: center !default;
 $logo-space: floor($header-padding-vertical * 0.5) !default;
 
-$main-menu-bg: $gray-500 !default;
+$main-menu-bg: $gray-100 !default;
 $main-menu-bg-hover: $gray-100 !default;
 $main-menu-bg-active: transparent !default;
 $main-menu-link: $gray-950 !default;
@@ -674,7 +674,7 @@ $flash-error-link: $gray-900 !default;
 //
 
 $progress-height: 12px !default;
-$progress-bg: rgba($gray-500, 0.5) !default;
+$progress-bg: rgba($gray-900, 0.5) !default;
 $progress-bar-bg: $brand-primary !default;
 $progress-bar-success-bg: $brand-success !default;
 $progress-bar-danger-bg: $brand-danger !default;
@@ -687,7 +687,7 @@ $panel-body-padding-vertical: 15px !default;
 $panel-body-padding-horizontal: 15px !default;
 $panel-body-padding: $panel-body-padding-vertical $panel-body-padding-horizontal !default;
 $panel-color: $text-color !default;
-$panel-bg: $gray-50 !default;
+$panel-bg: $gray-300 !default;
 $panel-border: $gray-400 !default;
 $panel-border-radius: $border-radius-base !default;
 $panel-shadow: 0 1px 2px rgba($black, 0.07), 0 3px 8px rgba($black, 0.04) !default;
