@@ -1,5 +1,5 @@
 .issues_container {
-  > .issue_card {
+  & .issue_card {
     background-color: $bg;
   }
 }
