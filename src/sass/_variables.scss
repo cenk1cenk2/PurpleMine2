@@ -44,7 +44,7 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue($bg), 100%, 80%) !default;
+$gray: hsl(hue($bg), 50%, 15%) !default;
 
 $shade-map: (
   50: 87.5%,
@@ -587,7 +587,7 @@ $logo-space: floor($header-padding-vertical * 0.5) !default;
 $main-menu-bg: $gray-100 !default;
 $main-menu-bg-hover: $gray-100 !default;
 $main-menu-bg-active: transparent !default;
-$main-menu-link: $gray-600 !default;
+$main-menu-link: $gray-950 !default;
 $main-menu-link-active: $white !default;
 $main-menu-border: $gray-400 !default;
 $main-menu-shadow-hover: $gray-600 !default;
