@@ -47,7 +47,6 @@ $bg: #1e2127 !default;
 $gray: hsl(hue($bg), 10%, 75%) !default;
 
 $shade-map: (
-  25: 92.5%,
   50: 87.5%,
   100: 80%,
   200: 65%,
@@ -59,6 +58,7 @@ $shade-map: (
   800: 65%,
   900: 80%,
   950: 87.5%,
+  1000: 92.5%,
 ) !default;
 
 @function shade($color, $shade: 500) {
@@ -70,7 +70,7 @@ $shade-map: (
   );
 }
 
-$gray-25: shade($gray, 25) !default;
+$gray-25: shade($gray, 1000) !default;
 $gray-50: shade($gray, 950) !default;
 $gray-100: shade($gray, 900) !default;
 $gray-200: shade($gray, 800) !default;
