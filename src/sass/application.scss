@@ -5,7 +5,6 @@
 @import "lib/normalize";
 @import "lib/font-awesome";
 
-
 //== Redmine's core elements
 //
 
@@ -40,14 +39,12 @@
 @import "components/responsive";
 @import "components/print";
 
-
 //== Tweaks for plugins
 //
 
 @import "components/plugins";
-
+@import "components/dashboard";
 
 //== Built-in JavaScript plugins
 //
-
 @import "javascripts/sidebar-toggler";
