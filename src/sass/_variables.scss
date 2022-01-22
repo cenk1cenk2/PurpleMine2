@@ -83,17 +83,17 @@ $gray-950: shade($gray, 50) !default;
 
 $brand-primary: $red !default;
 $brand-text: $white !default;
-$brand-accent: shade($brand-primary, 100) !default;
+$brand-accent: shade($brand-primary, 900) !default;
 
 $brand-success: $green !default;
 $brand-info: $blue !default;
 $brand-warning: $orange !default;
 $brand-danger: $red !default;
 
-$state-success: shade($green, 100) !default;
-$state-info: shade($blue, 100) !default;
-$state-warning: shade($orange, 100) !default;
-$state-danger: shade($red, 100) !default;
+$state-success: shade($green, 900) !default;
+$state-info: shade($blue, 900) !default;
+$state-warning: shade($orange, 900) !default;
+$state-danger: shade($red, 900) !default;
 
 //== Scaffolding
 //
@@ -386,36 +386,36 @@ $tracker-inline-padding: 1px 5px !default;
 $tracker-list-padding: 0 6px !default;
 
 $tracker-default-bg: $gray-700 !default;
-$tracker-default-text: $bg !default;
+$tracker-default-text: $gray-900 !default;
 
 $tracker-default-colors-map: (
   1: (
     background: $red,
-    color: $bg,
+    color: $gray-900,
   ),
   2: (
     background: $blue,
-    color: $bg,
+    color: $gray-900,
   ),
   3: (
     background: $green,
-    color: $bg,
+    color: $gray-900,
   ),
   4: (
     background: $purple,
-    color: $bg,
+    color: $gray-900,
   ),
   5: (
     background: $orange,
-    color: $bg,
+    color: $gray-900,
   ),
   6: (
     background: $teal,
-    color: $bg,
+    color: $gray-900,
   ),
   7: (
     background: $indigo,
-    color: $bg,
+    color: $gray-900,
   ),
 ) !default;
 $tracker-custom-colors-map: () !default;
@@ -546,7 +546,7 @@ $check-list-offset-top: $input-padding-vertical + 1px;
 //== Top
 //
 
-$top-menu-bg: shade($brand-primary, 700) !default;
+$top-menu-bg: shade($brand-primary, 900) !default;
 $top-menu-text: shade($brand-primary, 100) !default;
 $top-menu-link: shade($brand-primary, 100) !default;
 $top-menu-link-hover: shade($brand-primary, 50) !default;
@@ -587,8 +587,8 @@ $logo-space: floor($header-padding-vertical * 0.5) !default;
 $main-menu-bg: $gray-100 !default;
 $main-menu-bg-hover: $gray-100 !default;
 $main-menu-bg-active: transparent !default;
-$main-menu-link: $gray-900 !default;
-$main-menu-link-active: $black !default;
+$main-menu-link: $gray-600 !default;
+$main-menu-link-active: $white !default;
 $main-menu-border: $gray-400 !default;
 $main-menu-shadow-hover: $gray-600 !default;
 $main-menu-shadow-width: 3px !default;
