@@ -19,7 +19,7 @@ $color-status: true !default;
 $color-priorities: false !default;
 $priority-icon: true !default;
 $use-gravatars: true !default;
-$use-logo: false !default;
+$use-logo: true !default;
 $use-retina-logo: false !default;
 $use-project-tiles: true !default;
 $issue-subject-large: true !default;
@@ -44,7 +44,7 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue(#0c1115), 20%, 85%) !default;
+$gray: hsl(hue($bg), 20%, 95%) !default;
 
 $shade-map: (
   50: 87.5%,
