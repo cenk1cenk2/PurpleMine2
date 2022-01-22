@@ -127,14 +127,13 @@
 
     @if $use-logo {
       padding-left: $logo-image-width + $logo-position-horizontal + $logo-space;
-      width: 16px;
       background-image: url("../images/logo.png");
       background-repeat: no-repeat;
       background-position: $logo-position-horizontal $logo-position-vertical;
 
       @if $use-retina-logo {
         @include img-retina(
-          "../images/logo/logo@2x.png",
+          "../images/logo/logo.png",
           $logo-image-width,
           $logo-image-height
         );
