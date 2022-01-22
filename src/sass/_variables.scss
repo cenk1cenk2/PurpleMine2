@@ -227,8 +227,8 @@ $table-list-color-even-rows: false !default;
 $table-list-highlight-rows: true !default;
 
 $table-bg: transparent !default;
-$table-accent-factor: 0.05 !default;
-$table-hover-factor: 0.1 !default;
+$table-accent-factor: 0.1 !default;
+$table-hover-factor: 0.2 !default;
 $table-bg-accent: rgba($gray-600, $table-accent-factor) !default;
 $table-bg-hover: rgba($gray-600, $table-hover-factor) !default;
 $table-bg-active: $table-bg-hover !default;
