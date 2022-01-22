@@ -43,8 +43,8 @@ $teal: #56b6c2 !default;
 
 $white: #fff !default;
 $black: #000 !default;
-$gray: #1e2127 !default;
 $bg: #1e2127 !default;
+$gray: hsl(hue($bg), 20%, 85%) !default;
 
 $shade-map: (
   50: 87.5%,
