@@ -99,7 +99,7 @@ $state-danger: shade($red, 900) !default;
 //== Scaffolding
 //
 
-$body-bg: #17191e !default;
+$body-bg: $bg !default;
 $text-color: $gray-950 !default;
 
 $link-color: shade($blue, 400) !default;
