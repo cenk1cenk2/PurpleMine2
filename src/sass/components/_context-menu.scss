@@ -12,7 +12,7 @@
     > ul > li > ul {
       @include nice-shadow(2);
       border: 0 none !important; // stylelint-disable-line declaration-no-important
-      background-color: $bg;
+      background-color: $pagination-bg;
     }
 
     ul {
