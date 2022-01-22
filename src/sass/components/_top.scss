@@ -127,6 +127,7 @@
 
     @if $use-logo {
       padding-left: $logo-image-width + $logo-position-horizontal + $logo-space;
+      width: 16px;
       background-image: url("../images/logo.png");
       background-repeat: no-repeat;
       background-position: $logo-position-horizontal $logo-position-vertical;
