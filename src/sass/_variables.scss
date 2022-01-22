@@ -58,7 +58,6 @@ $shade-map: (
   800: 65%,
   900: 80%,
   950: 87.5%,
-  1000: 92.5%,
 ) !default;
 
 @function shade($color, $shade: 500) {
@@ -70,7 +69,7 @@ $shade-map: (
   );
 }
 
-$gray-25: shade($gray, 1000) !default;
+$gray-25: #202329 !default;
 $gray-50: shade($gray, 950) !default;
 $gray-100: shade($gray, 900) !default;
 $gray-200: shade($gray, 800) !default;
@@ -83,7 +82,7 @@ $gray-800: shade($gray, 200) !default;
 $gray-900: shade($gray, 100) !default;
 $gray-950: shade($gray, 50) !default;
 
-$brand-primary: shade($yellow, 700) !default;
+$brand-primary: shade($blue, 700) !default;
 $brand-text: $white !default;
 $brand-accent: shade($brand-primary, 600) !default;
 
