@@ -499,9 +499,9 @@ $icon-color-map: (
 //== Highlights
 //
 
-$highlight-bg: shade($yellow, 200) !default;
+$highlight-bg: shade($yellow, 900) !default;
 $highlight-border: shade($yellow, 600) !default;
-$highlight-text: shade($yellow, 800) !default;
+$highlight-text: shade($bg, 100) !default;
 $highlight-link: mix($yellow, $link-color) !default;
 
 //== Forms
