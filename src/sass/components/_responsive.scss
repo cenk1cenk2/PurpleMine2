@@ -28,6 +28,7 @@ body {
         #quick-search {
           select {
             top: 0;
+            background-color: $bg;
             height: $responsive-header-height;
             box-shadow: none;
           }

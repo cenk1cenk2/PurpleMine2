@@ -83,7 +83,7 @@ $gray-950: shade($gray, 50) !default;
 
 $brand-primary: shade($blue, 600) !default;
 $brand-text: $white !default;
-$brand-accent: shade($brand-primary, 400) !default;
+$brand-accent: shade($brand-primary, 300) !default;
 
 $brand-success: $green !default;
 $brand-info: $blue !default;
@@ -188,9 +188,9 @@ $padding-small-horizontal: 10px !default;
 $padding-side: 20px !default;
 $padding-wiki: 20px !default;
 
-$border-radius-base: 3px !default;
-$border-radius-large: 4px !default;
-$border-radius-small: 2px !default;
+$border-radius-base: 2px !default;
+$border-radius-large: 3px !default;
+$border-radius-small: 1px !default;
 
 $hr-border: $gray-600 !default;
 $abbr-border-color: $gray-600 !default;
@@ -499,8 +499,8 @@ $icon-color-map: (
 //== Highlights
 //
 
-$highlight-bg: shade($yellow, 700) !default;
-$highlight-border: shade($yellow, 400) !default;
+$highlight-bg: shade($yellow, 800) !default;
+$highlight-border: shade($yellow, 600) !default;
 $highlight-text: shade($gray, 100) !default;
 $highlight-link: mix($yellow, $link-color) !default;
 
@@ -562,10 +562,10 @@ $header-title-line-height: $line-height-computed * 1.5 !default;
 
 $responsive-header-height: 54px !default;
 
-$flyout-menu-bg: shade($header-bg, 700) !default;
+$flyout-menu-bg: shade($header-bg, 900) !default;
 $flyout-menu-text: $white !default;
 $flyout-menu-link: $gray-950 !default;
-$flyout-menu-link-active-bg: shade($header-bg, 50) !default;
+$flyout-menu-link-active-bg: shade($header-bg, 700) !default;
 $flyout-menu-link-active: $text-color !default;
 $flyout-menu-header-bg: shade($header-bg, 800) !default;
 $flyout-menu-header-border: shade($header-bg, 800) !default;
