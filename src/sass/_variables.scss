@@ -19,7 +19,7 @@ $color-status: true !default;
 $color-priorities: false !default;
 $priority-icon: true !default;
 $use-gravatars: true !default;
-$use-logo: true !default;
+$use-logo: false !default;
 $use-retina-logo: true !default;
 $use-project-tiles: true !default;
 $issue-subject-large: true !default;
@@ -44,7 +44,7 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue($bg), 10%, 75%) !default;
+$gray: hsl(hue($bg), 8%, 72%) !default;
 
 $shade-map: (
   50: 87.5%,
@@ -226,10 +226,10 @@ $table-list-color-even-rows: false !default;
 $table-list-highlight-rows: true !default;
 
 $table-bg: transparent !default;
-$table-accent-factor: 0.1 !default;
-$table-hover-factor: 0.2 !default;
-$table-bg-accent: rgba($gray-400, $table-accent-factor) !default;
-$table-bg-hover: rgba($gray-400, $table-hover-factor) !default;
+$table-accent-factor: 0.05 !default;
+$table-hover-factor: 0.1 !default;
+$table-bg-accent: rgba($gray-600, $table-accent-factor) !default;
+$table-bg-hover: rgba($gray-600, $table-hover-factor) !default;
 $table-bg-active: $table-bg-hover !default;
 
 $table-border-color: $gray-300 !default;
