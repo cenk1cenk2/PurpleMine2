@@ -44,7 +44,7 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue($bg), 10%, 100%) !default;
+$gray: hsl(hue($bg), 10%) !default;
 
 $shade-map: (
   50: 87.5%,
@@ -83,7 +83,7 @@ $gray-950: shade($gray, 50) !default;
 
 $brand-primary: shade($blue, 600) !default;
 $brand-text: $white !default;
-$brand-accent: shade($brand-primary, 100) !default;
+$brand-accent: shade($brand-primary, 400) !default;
 
 $brand-success: $green !default;
 $brand-info: $blue !default;
@@ -554,7 +554,7 @@ $top-menu-link-hover: shade($brand-primary, 100) !default;
 $header-bg: $brand-primary !default;
 $header-text: $brand-text !default;
 $header-link: $brand-text !default;
-$header-root: $brand-accent !default;
+$header-root: $brand-text;
 $header-padding-vertical: 10px !default;
 $header-padding-horizontal: $padding-side !default;
 $header-title-size: $font-size-h3 !default;
