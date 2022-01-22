@@ -1,7 +1,9 @@
 .status_column_issues .issue_card {
-  background-color: $gray-100 !important;
+  background-color: $gray-50 !important;
+  border-radius: 0 !important;
 }
 
 .status_column_closed_issues .issue_card {
   background-color: $gray-50 !important;
+  border-radius: 0 !important;
 }
