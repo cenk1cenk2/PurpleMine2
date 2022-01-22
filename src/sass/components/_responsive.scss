@@ -116,6 +116,7 @@ body {
       }
 
       &__search {
+        background-color: $bg;
         height: $responsive-header-height;
         padding: ($padding-side * 0.5);
         line-height: normal;
