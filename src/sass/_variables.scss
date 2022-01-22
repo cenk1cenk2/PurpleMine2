@@ -226,10 +226,10 @@ $table-list-color-even-rows: false !default;
 $table-list-highlight-rows: true !default;
 
 $table-bg: transparent !default;
-$table-accent-factor: 0.15 !default;
-$table-hover-factor: 0.4 !default;
-$table-bg-accent: rgba($gray-500, $table-accent-factor) !default;
-$table-bg-hover: rgba($gray-500, $table-hover-factor) !default;
+$table-accent-factor: 0.1 !default;
+$table-hover-factor: 0.2 !default;
+$table-bg-accent: rgba($gray-400, $table-accent-factor) !default;
+$table-bg-hover: rgba($gray-400, $table-hover-factor) !default;
 $table-bg-active: $table-bg-hover !default;
 
 $table-border-color: $gray-300 !default;
