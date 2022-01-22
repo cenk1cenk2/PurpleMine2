@@ -82,7 +82,7 @@ $gray-900: shade($gray, 100) !default;
 $gray-950: shade($gray, 50) !default;
 
 $brand-primary: $red !default;
-$brand-text: $white !default;
+$brand-text: $bg !default;
 $brand-accent: shade($brand-primary, 100) !default;
 
 $brand-success: $green !default;
@@ -255,11 +255,11 @@ $status-default-color: $brand-text !default;
 $status-default-colors-map: (
   status-1: (
     background: shade($blue, 500),
-    color: $white,
+    color: $bg,
   ),
   closed: (
     background: shade($red, 500),
-    color: $white,
+    color: $bg,
   ),
 ) !default;
 $status-custom-colors-map: () !default;
@@ -386,36 +386,36 @@ $tracker-inline-padding: 1px 5px !default;
 $tracker-list-padding: 0 6px !default;
 
 $tracker-default-bg: $gray-700 !default;
-$tracker-default-text: $white !default;
+$tracker-default-text: $bg !default;
 
 $tracker-default-colors-map: (
   1: (
     background: $red,
-    color: $white,
+    color: $bg,
   ),
   2: (
     background: $blue,
-    color: $white,
+    color: $bg,
   ),
   3: (
     background: $green,
-    color: $white,
+    color: $bg,
   ),
   4: (
     background: $purple,
-    color: $white,
+    color: $bg,
   ),
   5: (
     background: $orange,
-    color: $white,
+    color: $bg,
   ),
   6: (
     background: $teal,
-    color: $white,
+    color: $bg,
   ),
   7: (
     background: $indigo,
-    color: $white,
+    color: $bg,
   ),
 ) !default;
 $tracker-custom-colors-map: () !default;
@@ -467,11 +467,11 @@ $btn-default-bg: $gray-100 !default;
 $btn-default-border: $gray-500 !default;
 $btn-default-icon-color: $gray-700 !default;
 
-$btn-primary-color: $white !default;
+$btn-primary-color: $bg !default;
 $btn-primary-bg: $blue !default;
 $btn-primary-border: $btn-primary-bg !default;
 
-$btn-success-color: $white !default;
+$btn-success-color: $bg !default;
 $btn-success-bg: $green !default;
 $btn-success-border: $btn-success-bg !default;
 
@@ -507,7 +507,7 @@ $highlight-link: mix($yellow, $link-color) !default;
 //== Forms
 //
 
-$input-bg: $white !default;
+$input-bg: $bg !default;
 $input-bg-disabled: $gray-300 !default;
 
 $input-color: $text-color !default;
@@ -563,13 +563,13 @@ $header-title-line-height: $line-height-computed * 1.5 !default;
 $responsive-header-height: 54px !default;
 
 $flyout-menu-bg: shade($header-bg, 700) !default;
-$flyout-menu-text: $white !default;
-$flyout-menu-link: $white !default;
+$flyout-menu-text: $bg !default;
+$flyout-menu-link: $bg !default;
 $flyout-menu-link-active-bg: shade($header-bg, 50) !default;
 $flyout-menu-link-active: $text-color !default;
 $flyout-menu-header-bg: shade($header-bg, 800) !default;
 $flyout-menu-header-border: shade($header-bg, 800) !default;
-$flyout-menu-header-text: $white !default;
+$flyout-menu-header-text: $bg !default;
 
 $quick-search-width: 200px !default;
 $quick-search-border: shade($header-bg, 800) !default;
@@ -652,8 +652,8 @@ $sidebar-link-active-text: $gray-950 !default;
 
 $flash-success-bg: shade($green, 400) !default;
 $flash-success-border: shade($green, 500) !default;
-$flash-success-text: $white !default;
-$flash-success-link: $white !default;
+$flash-success-text: $bg !default;
+$flash-success-link: $bg !default;
 
 $flash-info-bg: shade($blue, 100) !default;
 $flash-info-border: shade($blue, 200) !default;
@@ -667,8 +667,8 @@ $flash-warning-link: shade($yellow, 900) !default;
 
 $flash-error-bg: $red !default;
 $flash-error-border: shade($red, 600) !default;
-$flash-error-text: $white !default;
-$flash-error-link: $white !default;
+$flash-error-text: $bg !default;
+$flash-error-link: $bg !default;
 
 //== Progress bars
 //
@@ -695,7 +695,7 @@ $panel-shadow: 0 1px 2px rgba($black, 0.07), 0 3px 8px rgba($black, 0.04) !defau
 //== Tooltips
 //
 
-$tooltip-bg: $white !default;
+$tooltip-bg: $bg !default;
 $tooltip-border-width: 0 !default;
 $tooltip-border: $gray-500 !default;
 $tooltip-text: $gray-800 !default;
@@ -791,7 +791,7 @@ $agile-issue-card-padding: 7px !default;
 $agile-issue-card-border: $gray-500;
 $agile-issue-card-border-width: 0 0 0 5px;
 $agile-issue-card-border-radius: $border-radius-large !default;
-$agile-issue-card-background: $white !default;
+$agile-issue-card-background: $bg !default;
 $agile-issue-card-color: $text-color !default;
 $agile-issue-card-closed-background: $gray-300 !default;
 $agile-issue-card-default-color-map: (
