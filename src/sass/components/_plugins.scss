@@ -6,7 +6,7 @@
 #sidebar .sidebar-additionals {
   ul,
   ol {
-    margin: 0 0 ($line-height-computed * .5);
+    margin: 0 0 ($line-height-computed * 0.5);
     padding-left: 1.5em;
 
     ul,
@@ -38,7 +38,6 @@
     max-width: $login-form-width;
   }
 }
-
 
 //
 // Redmine Backlogs
@@ -84,7 +83,6 @@
     max-width: $sidebar-width-computed;
   }
 }
-
 
 //
 // Redmine Banner
@@ -174,7 +172,7 @@
     p,
     ul,
     ol {
-      margin-bottom: $line-height-computed * .5;
+      margin-bottom: $line-height-computed * 0.5;
 
       &:last-child {
         margin-bottom: 0;
@@ -193,7 +191,6 @@
   }
 }
 
-
 //
 // Redmine Hearts
 // https://github.com/cat-in-136/redmine_hearts
@@ -207,7 +204,9 @@
   > .heart-link-with-count {
     display: block;
     position: relative;
-    margin: -($line-height-computed * .5 + 1px) ($bubble-padding-horizontal - $padding-small-vertical) 0;
+    margin: -($line-height-computed * 0.5 + 1px) (
+        $bubble-padding-horizontal - $padding-small-vertical
+      ) 0;
     float: right;
     border: 0;
     background-color: $body-bg;
@@ -252,7 +251,7 @@
     > a:first-child {
       margin-right: 0;
       margin-left: 4px;
-      padding-right: floor($btn-padding-horizontal-small * .5);
+      padding-right: floor($btn-padding-horizontal-small * 0.5);
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
 
@@ -265,7 +264,6 @@
     }
   }
 }
-
 
 //
 // Redmine Time Tracker
@@ -309,7 +307,6 @@
   clear: both;
 }
 
-
 //
 // RedmineUP
 // https://www.redmineup.com/pages/plugins
@@ -323,7 +320,7 @@ h2 {
   }
 
   .live_search {
-    margin-left: $padding-side * .5;
+    margin-left: $padding-side * 0.5;
   }
 
   .tags {
@@ -341,7 +338,6 @@ div.details {
     background: transparent;
   }
 }
-
 
 //
 // Redmine Agile
@@ -411,7 +407,7 @@ html.agile-board-fullscreen .icon.icon-fullscreen {
       .checklist,
       .info,
       .sub-issues {
-        border-color: rgba($black, .15);
+        border-color: rgba($black, 0.15);
       }
 
       p.issue-id,
@@ -428,8 +424,9 @@ html.agile-board-fullscreen .icon.icon-fullscreen {
       }
 
       p.project {
+        background-color: $gray-100;
         border-radius: $agile-issue-card-border-radius - 1px;
-        border-color: rgba($black, .15);
+        border-color: rgba($black, 0.15);
         background-clip: padding-box;
       }
 
@@ -458,7 +455,6 @@ html.agile-board-fullscreen .icon.icon-fullscreen {
   }
 }
 
-
 .controller-agile_charts #main {
   @if $css-grid-layout {
     > div:not(#content):not(#sidebar) {
@@ -481,7 +477,6 @@ html.agile-board-fullscreen .icon.icon-fullscreen {
     display: none;
   }
 }
-
 
 //
 // Redmine CRM
@@ -517,7 +512,6 @@ div.add-note {
     }
   }
 }
-
 
 //
 // Redmine Tags
@@ -582,11 +576,10 @@ div.add-note {
     }
 
     .select2-selection {
-      transition:
-        border-color $transition-time ease-in-out,
+      transition: border-color $transition-time ease-in-out,
         box-shadow $transition-time ease-in-out;
       border-color: $input-border;
-      box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
       background-clip: padding-box;
 
       &.icon {
@@ -596,7 +589,7 @@ div.add-note {
           position: absolute;
           top: 50%;
           left: 8px;
-          margin: ($fa-font-size-base * -.5) 0 0;
+          margin: ($fa-font-size-base * -0.5) 0 0;
         }
       }
     }
@@ -611,7 +604,8 @@ div.add-note {
       &--focus {
         .select2-selection {
           border-color: rgba($input-border-focus, $input-border-focus-alpha);
-          box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 0 0 0 2px rgba($input-border-focus, $input-shadow-focus-alpha);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075),
+            0 0 0 2px rgba($input-border-focus, $input-shadow-focus-alpha);
         }
       }
     }
@@ -629,7 +623,7 @@ span.tag-label-color {
     padding: 0 !important; // stylelint-disable-line declaration-no-important
     border: 0 !important; // stylelint-disable-line declaration-no-important
     border-radius: $badge-border-radius;
-    box-shadow: inset 0 -1px 0 rgba($black, .12);
+    box-shadow: inset 0 -1px 0 rgba($black, 0.12);
     font-size: $font-size-small-px;
 
     a,
@@ -642,12 +636,12 @@ span.tag-label-color {
     > span {
       display: inline-block;
       padding: 1px 5px;
-      text-shadow: 0 1px 0 rgba($black, .2);
+      text-shadow: 0 1px 0 rgba($black, 0.2);
     }
 
     a {
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
       }
     }
   }
@@ -662,7 +656,6 @@ span.tag-label-color {
     transform: translateY(-1px);
   }
 }
-
 
 //
 // Redmine Checklists
@@ -705,7 +698,6 @@ span.tag-label-color {
   }
 }
 
-
 //
 // Redmine custom menu
 // http://rmplus.pro/en/redmine/plugins/custom_menu
@@ -726,7 +718,7 @@ span.tag-label-color {
         margin: 5px 4px 0 5px;
         border-top: 0;
         border-left: 1px solid;
-        opacity: .3;
+        opacity: 0.3;
       }
     }
 
@@ -755,8 +747,8 @@ span.tag-label-color {
     margin: 0;
 
     form > input {
-      width: $quick-search-width * .5;
-      min-width: $quick-search-width * .5;
+      width: $quick-search-width * 0.5;
+      min-width: $quick-search-width * 0.5;
     }
 
     a {
@@ -764,7 +756,6 @@ span.tag-label-color {
     }
   }
 }
-
 
 //
 // Redmine codebutton
@@ -780,7 +771,6 @@ span.tag-label-color {
     white-space: nowrap;
   }
 }
-
 
 //
 // Redmine Stuff To Do
@@ -866,7 +856,6 @@ span.tag-label-color {
     }
   }
 }
-
 
 //
 // Redmine WikiNG
