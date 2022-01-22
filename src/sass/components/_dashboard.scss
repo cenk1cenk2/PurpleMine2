@@ -1,3 +1,7 @@
 .status_column_issues .issue_card {
+  background-color: $gray-100 !important;
+}
+
+.status_column_closed_issues .issue_card {
   background-color: $gray-50 !important;
 }
