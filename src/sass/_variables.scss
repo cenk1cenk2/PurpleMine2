@@ -41,8 +41,8 @@ $yellow: #e5c07b !default;
 $green: #98c379 !default;
 $teal: #56b6c2 !default;
 
-$white: #000000 !default;
-$black: #efefef !default;
+$white: #fff !default;
+$black: #000 !default;
 $gray: #5c6370 !default;
 $bg: #1e2127 !default;
 
@@ -101,7 +101,7 @@ $state-danger: shade($red, 100) !default;
 $body-bg: $bg !default;
 $text-color: $gray-800 !default;
 
-$link-color: shade($blue, 600) !default;
+$link-color: shade($blue, 400) !default;
 $link-hover-color: $blue !default;
 $link-hover-decoration: underline !default;
 $link-closed-decoration: line-through !default;
