@@ -44,7 +44,7 @@ $teal: #56b6c2 !default;
 $white: #fff !default;
 $black: #000 !default;
 $bg: #1e2127 !default;
-$gray: hsl(hue($bg), 20%, 85%) !default;
+$gray: hsl(hue($bg), 20%, 75%) !default;
 
 $shade-map: (
   50: 87.5%,
@@ -499,8 +499,8 @@ $icon-color-map: (
 //== Highlights
 //
 
-$highlight-bg: shade($blue, 900) !default;
-$highlight-border: shade($yellow, 600) !default;
+$highlight-bg: shade($yellow, 700) !default;
+$highlight-border: shade($yellow, 400) !default;
 $highlight-text: shade($gray, 100) !default;
 $highlight-link: mix($yellow, $link-color) !default;
 

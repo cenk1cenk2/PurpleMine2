@@ -1,5 +1,3 @@
-.issue_container {
-  .issue_card {
-    background-color: $bg;
-  }
+.issue_container > .issue_card {
+  background-color: $bg;
 }
