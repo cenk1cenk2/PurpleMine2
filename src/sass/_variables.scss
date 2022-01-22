@@ -83,7 +83,7 @@ $gray-950: shade($gray, 50) !default;
 
 $brand-primary: $red !default;
 $brand-text: $white !default;
-$brand-accent: shade($brand-primary, 900) !default;
+$brand-accent: shade($brand-primary, 400) !default;
 
 $brand-success: $green !default;
 $brand-info: $blue !default;
@@ -255,11 +255,11 @@ $status-default-color: $brand-text !default;
 $status-default-colors-map: (
   status-1: (
     background: shade($blue, 500),
-    color: $bg,
+    color: $white,
   ),
   closed: (
     background: shade($red, 500),
-    color: $bg,
+    color: $white,
   ),
 ) !default;
 $status-custom-colors-map: () !default;
@@ -467,11 +467,11 @@ $btn-default-bg: $gray-100 !default;
 $btn-default-border: $gray-500 !default;
 $btn-default-icon-color: $gray-700 !default;
 
-$btn-primary-color: $bg !default;
+$btn-primary-color: $gray-900 !default;
 $btn-primary-bg: $blue !default;
 $btn-primary-border: $btn-primary-bg !default;
 
-$btn-success-color: $bg !default;
+$btn-success-color: $gray-900 !default;
 $btn-success-bg: $green !default;
 $btn-success-border: $btn-success-bg !default;
 
@@ -652,8 +652,8 @@ $sidebar-link-active-text: $gray-950 !default;
 
 $flash-success-bg: shade($green, 400) !default;
 $flash-success-border: shade($green, 500) !default;
-$flash-success-text: $bg !default;
-$flash-success-link: $bg !default;
+$flash-success-text: $gray-900 !default;
+$flash-success-link: $gray-900 !default;
 
 $flash-info-bg: shade($blue, 100) !default;
 $flash-info-border: shade($blue, 200) !default;
@@ -667,8 +667,8 @@ $flash-warning-link: shade($yellow, 900) !default;
 
 $flash-error-bg: $red !default;
 $flash-error-border: shade($red, 600) !default;
-$flash-error-text: $bg !default;
-$flash-error-link: $bg !default;
+$flash-error-text: $gray-900 !default;
+$flash-error-link: $gray-900 !default;
 
 //== Progress bars
 //
