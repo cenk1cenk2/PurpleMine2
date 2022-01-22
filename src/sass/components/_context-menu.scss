@@ -12,6 +12,7 @@
     > ul > li > ul {
       @include nice-shadow(2);
       border: 0 none !important; // stylelint-disable-line declaration-no-important
+      background-color: $bg;
     }
 
     ul {
@@ -46,7 +47,7 @@
       }
 
       &.disabled {
-        color: rgba($pagination-color, .5);
+        color: rgba($pagination-color, 0.5);
       }
 
       &.icon-checked {
@@ -54,7 +55,14 @@
       }
 
       &.submenu {
-        background-image: inline-svg("chevron-right.svg", (path: (fill: $btn-default-icon-color)));
+        background-image: inline-svg(
+          "chevron-right.svg",
+          (
+            path: (
+              fill: $btn-default-icon-color,
+            ),
+          )
+        );
       }
     }
   }

@@ -43,7 +43,7 @@ $teal: #56b6c2 !default;
 
 $white: #fff !default;
 $black: #000 !default;
-$gray: #5c6370 !default;
+$gray: #4b5263 !default;
 $bg: #1e2127 !default;
 
 $shade-map: (
@@ -99,7 +99,7 @@ $state-danger: shade($red, 900) !default;
 //
 
 $body-bg: $bg !default;
-$text-color: $gray-800 !default;
+$text-color: $gray-950 !default;
 
 $link-color: shade($blue, 400) !default;
 $link-hover-color: $blue !default;
@@ -546,10 +546,10 @@ $check-list-offset-top: $input-padding-vertical + 1px;
 //== Top
 //
 
-$top-menu-bg: shade($brand-primary, 900) !default;
-$top-menu-text: shade($brand-primary, 100) !default;
-$top-menu-link: shade($brand-primary, 100) !default;
-$top-menu-link-hover: shade($brand-primary, 50) !default;
+$top-menu-bg: shade($brand-primary, 600) !default;
+$top-menu-text: shade($brand-primary, 700) !default;
+$top-menu-link: shade($brand-primary, 800) !default;
+$top-menu-link-hover: shade($brand-primary, 950) !default;
 
 $header-bg: $brand-primary !default;
 $header-text: $brand-text !default;
