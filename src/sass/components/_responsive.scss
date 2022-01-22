@@ -67,11 +67,11 @@ body {
             @include fa-icon;
             content: $fa-var-chevron-down;
             position: relative;
-            top: -.1em;
-            width: $responsive-header-height * .75;
+            top: -0.1em;
+            width: $responsive-header-height * 0.75;
             padding: 0;
             transform: none;
-            font-size: .8em;
+            font-size: 0.8em;
             text-align: center;
           }
 
@@ -109,6 +109,7 @@ body {
     .flyout-menu {
       background-color: $flyout-menu-bg;
       color: $flyout-menu-text;
+      width: 100%;
 
       .search-magnifier {
         left: 18px;
@@ -116,7 +117,7 @@ body {
 
       &__search {
         height: $responsive-header-height;
-        padding: ($padding-side * .5);
+        padding: ($padding-side * 0.5);
         line-height: normal;
 
         input[type="text"] {
@@ -249,13 +250,13 @@ body {
 
       #watchers {
         .contextual {
-          padding-top: $line-height-computed * .5;
-          padding-bottom: $line-height-computed * .5;
+          padding-top: $line-height-computed * 0.5;
+          padding-bottom: $line-height-computed * 0.5;
         }
 
         .watchers {
           li {
-            margin: ($line-height-computed * .5) 0 0;
+            margin: ($line-height-computed * 0.5) 0 0;
             padding: 0;
 
             img.gravatar {
@@ -451,7 +452,7 @@ body {
     .query-columns {
       span {
         display: block;
-        margin-bottom: $line-height-computed * .5;
+        margin-bottom: $line-height-computed * 0.5;
       }
 
       .buttons {
