@@ -61,7 +61,7 @@ $shade-map: (
 ) !default;
 
 @function shade($color, $shade: 500) {
-  $mixer: if($shade < 500, $black, $white);
+  $mixer: if($shade < 500, $white, $black);
   $saturation: if($shade < 500, 0, math.div($shade - 500, 20));
   @return saturate(
     mix($mixer, $color, map-get($shade-map, $shade)),
