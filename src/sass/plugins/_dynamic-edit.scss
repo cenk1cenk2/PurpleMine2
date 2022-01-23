@@ -1,17 +1,22 @@
-.controller-issues.action-show div.issue.details .iconEdit {
+body.controller-issues.action-show .dynamicEditField button.action {
   background-color: $yellow !important;
-  color: $yellow !important;
 }
 
-.controller-issues.action-show .dynamicEditField {
-  background-color: $gray-100 !important;
+body.controller-issues.action-show .dynamicEditField button.action.valid {
+  background-color: $green !important;
+}
+
+body.controller-issues.action-show .dynamicEditField {
+  background: $gray-100 !important;
   border-radius: 0 !important;
+}
 
-  > select {
-    background-color: $bg !important;
-  }
+body.controller-issues.action-show .dynamicEditField select {
+  border-radius: 0 !important;
+  background-color: $bg !important;
+  border: 1px solid $gray-200 !important;
+}
 
-  > button.action {
-    background-color: transparent !important;
-  }
+body.controller-issues.action-show .attribute .error {
+  color: $red !important;
 }
