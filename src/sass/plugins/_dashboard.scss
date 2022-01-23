@@ -9,5 +9,6 @@
 }
 
 .status_column_issues .issue_card_header_project {
-  color: $gray-50;
+  color: $gray-50 !important;
+  border-radius: 0 !important;
 }
