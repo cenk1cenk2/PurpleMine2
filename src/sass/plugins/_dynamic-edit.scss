@@ -1,0 +1,16 @@
+body.controller-issues.action-show div.issue.details .iconEdit {
+  background-color: $yellow !important;
+  color: $yellow !important;
+}
+
+body.controller-issues.action-show .dynamicEditField {
+  background-color: $gray-100 !important;
+
+  & select {
+    background-color: $bg !important;
+  }
+
+  & button.action {
+    background-color: transparent !important;
+  }
+}

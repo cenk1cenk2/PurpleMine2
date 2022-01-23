@@ -43,8 +43,9 @@
 //
 
 @import "components/plugins";
-@import "components/dashboard";
-@import "components/tags";
+@import "plugins/dashboard";
+@import "plugins/dynamic-edit";
+@import "plugins/tags";
 
 //== Built-in JavaScript plugins
 //
