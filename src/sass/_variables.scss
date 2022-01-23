@@ -436,10 +436,10 @@ $diff-in-bg-light: rgba($diff-in-bg, 0.4) !default;
 //== Journal changes
 //
 
-$journal-old-value-color: saturate(shade($orange, 50), 50%) !default;
-$journal-old-value-bg: saturate(shade($orange, 800), 25%) !default;
-$journal-new-value-color: saturate(shade($green, 50), 50%) !default;
-$journal-new-value-bg: saturate(shade($green, 800), 25%) !default;
+$journal-old-value-color: shade($orange, 50) !default;
+$journal-old-value-bg: shade($orange, 800) !default;
+$journal-new-value-color: shade($green, 50) !default;
+$journal-new-value-bg: shade($green, 800) !default;
 
 //== Changesets
 //
